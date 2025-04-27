@@ -30,6 +30,14 @@ def detect_phishing(url):
 def index():
     return send_from_directory('.', 'index.html')
 
+@app.route('/style.css')
+def style():
+    return send_from_directory('.', 'style.css')
+
+@app.route('/main.js')
+def mainjs():
+    return send_from_directory('.', 'main.js')
+
 import urllib.parse
 
 @app.route('/analyze', methods=['POST'])

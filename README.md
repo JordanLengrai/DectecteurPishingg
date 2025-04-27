@@ -35,7 +35,7 @@ python app.py
 4. Va sur [http://127.0.0.1:5000](http://127.0.0.1:5000) et amuse-toi !
 
 ## Pour aller plus loin
-- Tu veux changer les couleurs ou les textes ? Va dans `static/style.css` ou `templates/index.html`.
+- Tu veux changer les couleurs ou les textes ? Va dans `style.css` ou `index.html`.
 - Tu veux ajouter tes propres règles de détection ? Modifie la fonction `detect_phishing` dans `app.py`.
 - Tu as une idée d’amélioration ou tu as trouvé un bug ? N’hésite pas à me contacter ou à faire une pull request !
 

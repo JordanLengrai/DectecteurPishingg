@@ -1,3 +1,8 @@
+/*
+ * Detecteur de Phishing - CSS principal
+ * Auteur : Jordan Lengrai
+ * Un peu de style pour rendre l’outil agréable à utiliser !
+ */
 body {
     min-height: 100vh;
     margin: 0;
@@ -37,14 +42,6 @@ h1 {
     margin-bottom: 8px;
     color: #2563eb;
     letter-spacing: -1px;
-}
-.ultra {
-    background: linear-gradient(90deg, #f43f5e, #2563eb);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    font-weight: 700;
 }
 .desc {
     color: #475569;
@@ -137,4 +134,3 @@ footer {
     input[type=text], button { width: 100%; }
     .result-card { font-size: 1em; padding: 12px 6px; }
 }
-

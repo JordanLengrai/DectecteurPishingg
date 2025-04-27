@@ -1,3 +1,7 @@
+// Detecteur de Phishing - JS principal
+// Auteur : Jordan Lengrai
+// Petite touche d'interactivité pour ton interface !
+
 document.getElementById('analyze-btn').onclick = async function() {
     const url = document.getElementById('input-url').value.trim();
     const resultDiv = document.getElementById('result');
